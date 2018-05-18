@@ -388,6 +388,7 @@ remote-cert-tls server
 auth SHA512
 cipher AES-256-CBC
 comp-lzo
+client-to-client
 setenv opt block-outside-dns
 key-direction 1
 verb 3" > /etc/openvpn/client-common.txt
