@@ -8,7 +8,7 @@ Run the script and follow the assistant:
 
 `wget https://git.io/vpxe5 -O openvpn-install.sh && bash openvpn-install.sh`
 
-add this to client ovpn 
+add this at th top of client.ovpn 
 `route-nopull`
 to make the route optional 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
